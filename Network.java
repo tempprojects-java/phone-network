@@ -9,8 +9,9 @@ public class Network {
 	}
 	
 	public static Network getInstance() {
-		if (instance == null)
+		if (instance == null) {
 			instance = new Network();
+		}
 
 		return instance;
 	}
